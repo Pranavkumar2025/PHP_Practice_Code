@@ -65,12 +65,13 @@
         $a++;
     } while ($a < 10);
 
-    // For loop
+    // For loop 
     for ($a=60; $a < 10; $a++) { 
         echo "<br>The value of a from the for loop is: ";
         echo $a;
     }
 
+    // for each
     foreach ($languages as $value) {
         echo "<br>The value from foreach loop is ";
         echo $value;
