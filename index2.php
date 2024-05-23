@@ -57,6 +57,14 @@
         $a++;
     }
 
+    // Practice code
+    $a = 0;
+    while ($a < count($languages)){
+        echo "<br> The value of language is : ";
+        echo $languages[$a];
+        $a++;
+    }
+
     // Do while loop
     $a = 200;
     do {
